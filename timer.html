@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>ICA - Ph.D. Jose Ruiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="includes/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <img src="images/logos/ica_01.png" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="cv.html">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="timer.html">Link</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+
+
+
+
+<div class="container text-center" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2>Controlador de horas</h2>
+      <h5>Trabalho no ICA</h5>
+      <p>Cadastro automatico das horas trabalhadas em cada projeto do ICA</p>
+      <p>Manntis - BigOil - Distribuir - NLP solar - GA solar - WEB - Covid - Outros</p>
+      <hr class="d-sm-none">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-3 col-md-3 col-lg-2 col-xl-2 bg-dark p-2">
+      <!-- <div class="btn-group-vertical"> -->
+        <button id="btn_nada" class="btn btn-secondary btn-block" onclick="button_nada()">
+          <span id="btn_nada_s"></span>
+          Nada
+        </button>
+
+        <button id="btn_lanche" class="btn btn-secondary btn-block" onclick="button_lanche()">
+          <span id="btn_lanche_s"></span>
+          Lanche
+        </button>
+
+        <button id="btn_comer" class="btn btn-secondary btn-block" onclick="button_comer()">
+          <span id="btn_comer_s"></span>
+          Comer
+        </button>
+
+        <button id="btn_nlp" class="btn btn-secondary btn-block" onclick="button_nlp()">
+          <span id="btn_nlp_s"></span>
+          NLP
+        </button>
+
+        <button id="btn_proxy" class="btn btn-secondary btn-block" onclick="button_proxy()">
+          <span id="btn_proxy_s"></span>
+          Proxy
+        </button>
+
+        <button id="btn_ocr" class="btn btn-secondary btn-block" onclick="button_ocr()">
+          <span id="btn_ocr_s"></span>
+          OCR
+        </button>
+
+        <button id="btn_postdoc" class="btn btn-secondary btn-block" onclick="button_postdoc()">
+          <span id="btn_postdoc_s"></span>
+          PostDoctorado
+        </button>
+
+        <button id="btn_ejercicios" class="btn btn-secondary btn-block" onclick="button_ejercicios()">
+          <span id="btn_ejercicios_s"></span>
+          Ejercicios
+        </button>
+
+        <button id="btn_estudiar" class="btn btn-secondary btn-block" onclick="button_estudiar()">
+          <span id="btn_estudiar_s"></span>
+          Estudiar
+        </button>
+
+        <button id="btn_outros" class="btn btn-secondary btn-block" onclick="button_outros()">
+          <span id="btn_outros_s"></span>
+          Outros
+        </button>
+    </div>
+    <div class="col-sm-9 col-md-9 col-lg-10 col-xl-10">
+      <h4>Tarefas desenvolvidas:</h4>
+      <h5 id=times_day_tasks></h5>
+      <input id="developed_tasks_bar" type="text" class="form-control form-control" value="" placeholder="Descrição das tarefas..." onKeyDown="not_comma()" >
+      <hr class="d-sm-none">
+      
+      <div id="chart_div" style="width: 100%; height: 100%;"></div>
+
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+
+<script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+<script src="includes/script.js"></script>
+<script>
+      document.onload = set_actual_project();
+</script>
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script>
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  // document.onload = drawChart();
+  // drawChart();
+</script>
+
+<script>
+  document.onload = count_time();
+</script>
+
+
+
+
+
+
+</body>
+</html>

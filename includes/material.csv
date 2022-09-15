@@ -1,0 +1,21 @@
+Tipo,Formato,Idioma,Plataforma,Curso,Tags,Tempo,Partes,Link
+Curso,Video,Español,youtube,Django,Web; Python,9 horas,28,https://www.youtube.com/playlist?list=PLU8oAlHdN5BmfvwxFO7HdPciOCmmYneAB
+Curso,Video,Español,youtube,Python desde 0,Python,21 horas,79,https://www.youtube.com/playlist?list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS
+Tutorial,VIdeo,Español,youtube,Docker intro windows,Docker,0,1,https://www.youtube.com/watch?v=-tI2TkdhRLg&t=980s
+Tutorial,VIdeo,Inglés,youtube,Crear ambiente virtual de python,VS Code; Python,0,1,https://www.youtube.com/watch?v=Wuuiga0wKdQ
+Tutorial,VIdeo,Español,youtube,Visual Studio Code e github,VS Code; Python,0,1,https://www.youtube.com/watch?v=qdec2M4NwT0
+Tutorial,Site,Inglés,,VS code and GitLab,VS Code; GitLab,,,https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow
+,Video,,youtube,HTML,,,,https://www.youtube.com/watch?v=cqMfPS8jPys&list=PLhSj3UTs2_yVHt2DgHky_MzzRC58UHE4z
+,Video,,youtube,CSS,,,,https://www.youtube.com/watch?v=24gNhTcy6pw&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR
+,VIdeo,,youtube,JS,,,,https://www.youtube.com/watch?v=xnWtGNiG2lg&list=PLhSj3UTs2_yVC0iaCGf16glrrfXuiSd0G
+,VIdeo,,youtube,JS,,,,https://www.youtube.com/watch?v=m2nscBtQEIs&list=PLU8oAlHdN5BmpobVmj1IlneKlVLJ84TID
+,VIdeo,,youtube,Bootstraps,,,,https://www.youtube.com/watch?v=xzZBp0hPX0Y&list=PLhSj3UTs2_yWHrFIVoEkiaiEjDHt9lZAI
+,Video,,youtube,Bootstraps,,,,https://www.youtube.com/watch?v=ow0T2Pdeyi0&list=PLxNM4ef1BpxjYsjQCzv_POTOssvR1zL2L&index=4
+,Video,,youtube,PHP/MYSQL,,,,https://www.youtube.com/watch?v=I75CUdSJifw&list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_
+,VIdeo,,youtube,Python,,,,https://www.youtube.com/watch?v=G2FCfQj-9ig&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS
+,VIdeo,,youtube,canales,,,,https://www.youtube.com/user/pildorasinformaticas/playlists
+,VIdeo,,youtube,canales,,,,https://www.youtube.com/user/FalconMasters/playlists
+,,,,Fortran no windows e vcs,,,,https://iraspa.org/blog/visual-studio-code-c-cpp-fortran-with-multiple-source-files/
+,,,,Fortran no windows e vcs,,,,https://www.youtube.com/watch?v=Nm-o-r-5N7c
+,,,,Fortran no windows e vcs,,,,https://www.msys2.org/
+,,,,pacman -S mingw-w64-x86_64-python3-pip mingw-w64-x86_64-python3-setuptools,,,,
